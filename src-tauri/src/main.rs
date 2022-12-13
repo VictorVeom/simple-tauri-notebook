@@ -8,7 +8,6 @@ use std::fs;
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 #[tauri::command]
 fn save_file(path: String, contents: String) {
-    println!("{} : {}", path, contents);
     fs::write(path, contents).unwrap();
 }
 
