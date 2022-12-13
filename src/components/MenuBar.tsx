@@ -1,5 +1,5 @@
 import { Editor } from "@tiptap/react";
-import { OpenFile } from "../utils/File";
+import { OpenFile, SaveFile } from "../utils/File";
 
 interface IMenuProp {
     editor: Editor
@@ -36,7 +36,7 @@ export default function MenuBar({ editor }: IMenuProp) {
                 <button className="menu-button" onClick={() => OpenFile(editor)}>
                     <i className={`ri-file-fill`}></i>
                 </button>
-                <button className="menu-button" onClick={() => console.log("save")}>
+                <button className="menu-button" onClick={() => SaveFile(editor.getHTML())}>
                     <i className={`ri-save-fill`}></i>
                 </button>
             </div>
