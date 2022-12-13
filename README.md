@@ -1,5 +1,10 @@
 # Tauri + React + Typescript + Tiptap
 
+### Features
+- Format Text
+- Import Text
+- Save Text
+
 ![alt text](https://i.imgur.com/IrjMmDl.png)
 ## Installation And Usage
 
