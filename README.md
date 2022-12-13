@@ -45,6 +45,8 @@ Main file and functions > /src-tauri/src/main.rs
 
 ## Docs
 
+[Rust](https://www.rust-lang.org/)
+
 [Tauri](https://tauri.app/)
 
 [React](https://reactjs.org/)
