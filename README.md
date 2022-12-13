@@ -1,7 +1,46 @@
-# Tauri + React + Typescript
+# Tauri + React + Typescript + Tiptap
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+![alt text](https://i.imgur.com/IrjMmDl.png)
+## Installation And Usage
 
-## Recommended IDE Setup
+```bash
+# using yarn
+yarn add 
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+# using npm
+npm install
+```
+
+## Principal Commands
+
+```bash
+# using yarn
+yarn tauri dev
+yarn tauri build
+
+# using npm 
+npm run tauri dev 
+npm run tauri build
+```
+
+## Files
+### React:
+
+Principal page react > src/components/MainPage.tsx
+
+Components menu bar > src/components/MenuBar.tsx
+
+Functions to import and save file > src/utils/File.tsx
+### Rust: 
+
+Config tauri(build, windows, icon) > src-tauri/tauri.conf.json
+
+Main file and functions > /src-tauri/src/main.rs
+
+## Docs
+
+[Tauri](https://tauri.app/)
+
+[React](https://reactjs.org/)
+
+[TipTap](https://tiptap.dev/)
