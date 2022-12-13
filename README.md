@@ -1,6 +1,7 @@
 # Tauri + React + Typescript + Tiptap
 
 ### Features
+- Write Text
 - Format Text
 - Import Text
 - Save Text
