@@ -15,6 +15,9 @@ export default function MainPage() {
     <>
       {editor && <MenuBar editor={editor} />}
       <EditorContent editor={editor} />
+      <footer>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/VictorVeom">By Victor Veom</a>
+      </footer>
     </>
   )
 }
